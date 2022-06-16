@@ -1,0 +1,36 @@
+Concurrency means simultaneous execution of several tasks.
+Main issues:
+Mutual exclusion
+    - Exclusive access to non-shareable, but shared recourses
+(Condition) Synchronization
+    - Usually related to "consumable" resources (producer-consumer problem)
+Deadlock
+    - A set of processes is deadlock if each process in the set is waiting for an event,
+    that only another process in the set ca cause (dining philosophers table)
+
+Risk of Threads
+Safety Hazards
+    - In the absence of sufficient synchronization, the ordering of operations in multiple threads is
+    unpredictable and sometimes surprising. (race condition)
+Liveliness Hazards (Deadlock)
+    - A liveliness failure occurs when an activity gets into a state such that is permanently unable
+    to make forward progress (infinite loop)
+Performance Hazards
+    - Poor service time, responsiveness, throughput, resource consumption or scalability
+
+Atomicity
+Execution of operation is atomic if either all the operations occur or none of them occur
+
+Race Condition
+A race condition occurs when more than one thread is performing a series of actions on shared resources
+and several possible outcomes can exist based on the order of the actions from each thread are performed
+
+Critical Region
+A critical region is a part od the code from a process/thread which accesses shared variables, shared files,
+or other shared memory objects. With multiple processes/threads running in the system, we need to provide
+access to the critical region to only one of the processes/threads at any given time. (this is mutual exclusion)
+
+Mutual Exclusion : Race Condition Solution
+Mutex
+Monitor
+Semaphored

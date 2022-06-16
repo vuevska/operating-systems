@@ -1,0 +1,4 @@
+THIS IS THE COPY FILE
+this is a test file
+hello!
+new text

@@ -1,0 +1,12 @@
+MAIL TO: maja@
+MAIL FROM: niki@
+CC: sdasd@hello
+how are you
+good you
+QUIT
+
+MAIL TO: h@
+MAIL FROM: m@
+CC: h@dasda
+asdasd
+QUIT
