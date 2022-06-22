@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Write a shell script that will filter the households that spent
+# more electricity than the average amount of electricity spent in
+# the month that is sent to the script as a first argument, and will
+# sort them in a descending order (with regards to the electricity spent)
+# The results should be written in a file out.txt, including the both
+# columns NameSurname and KWh
+
 # check if 1 argument is sent to the script
 if [ $# -ne 1 ]
 then
